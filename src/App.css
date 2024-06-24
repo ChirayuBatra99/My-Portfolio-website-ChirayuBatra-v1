@@ -1,4 +1,5 @@
 .App {
+  /* background-color: black; */
   text-align: center;
 }
 
@@ -35,4 +36,196 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.mainContent{
+  width: 80%;
+  background-color: rgb(38, 38, 66);
+  height: 100%;
+
+}
+
+.bhh{
+  background-color: black;
+}
+
+.aboutText{
+  width: 60%;
+  margin-left: 20%;
+  /* margin-top: 20% */
+  color: white;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  /* height: 100vh; */
+}
+
+.aboutFlex{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  /* justify-content: center; */
+  /* background-color: blue; */
+}
+.line{
+  background-color: white;
+  height: 1px;
+  width: 60%;
+  margin-left: 20%;
+
+}
+
+
+
+/* above is about page css */
+/* below is navbar css */
+
+.navbar{
+  width: 20%;
+  background-color: rgb(48, 10, 68);
+  /* height: 200vh; */
+}
+.navbarContainer{
+  background-color: rgb(48, 10, 68);
+  overflow-y: auto;
+  position: fixed; /* Make it sticky */
+  width: 20%;
+  color: white;
+}
+
+.sideBarTitles{
+  background-color: rgb(66, 10, 10);
+}
+
+.indiviadualTitle{
+  height: 100%;
+  
+}
+.indiviadualTitle:hover{
+  /* background-color: rgb(42, 61, 211); */
+  color: yellow;
+  /* height: 40px; */
+  cursor: pointer
+}
+
+.individualText{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20%;
+}
+
+.individualText:hover{
+  /* background-color: rgb(42, 61, 211); */
+  /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.active{
+  background-color: white;
+}
+
+
+
+/* above is navbar css */
+/* below is skills page css */
+
+.sizeInc{
+  height: 100px;
+  width: 100%;
+  /* margin-left: 50px; */
+}
+
+.bigContainerIcons{
+  display:flex;
+  flex-direction: column;
+  /* width: 50%; */
+}
+
+.smallContainerIcons3{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  width: 60%;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.smallContainerIcons{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+
+.iconSize{
+  /* height: 10px;
+  width: 10px;  */
+  /* margin-left: 50%;
+  margin-right: 50%; */
+}
+
+.capsule{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.picAndContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* above is skills page css */
+/* below is resume page css */
+
+.profilesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 10vh;
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+
+
+/* above is css for resume page */
+/* below is css for home page and there i use rotating text */
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  padding: -100%;
+}
+
+.connectContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 60%;
+  height: 1px;
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+.sizeLinkedIn{
+  height: 50px;
+  width: 100%;
+  /* margin-left: 50px; */
+}
+.sizeLinkedIn:hover{
+  /* cursor: url('./Images/c.png'), auto; */
+  cursor: pointer;
 }
