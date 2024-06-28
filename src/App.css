@@ -1,6 +1,7 @@
 .App {
-  /* background-color: black; */
+  background-color: black;
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -43,6 +44,7 @@
   width: 80%;
   background-color: rgb(38, 38, 66);
   height: 100%;
+  /* color: black; */
 
 }
 
@@ -228,4 +230,45 @@
 .sizeLinkedIn:hover{
   /* cursor: url('./Images/c.png'), auto; */
   cursor: pointer;
+}
+
+
+/* above is home page css */
+/* below is Projects page css */
+
+.projectImages{
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  height: 30%;
+  justify-content: space-between;
+  margin-left: 1%;
+  margin-bottom: 10%;
+}
+
+.indiviadualCellProject{
+   width: 100%;
+    height: 100%;
+}
+.indiviadualProjectImage{
+    width: 90%;
+    height: 50%;
+}
+
+.projectDescription{
+  color: white;
+  width: 95%;
+
+}
+
+.sizeInc2{
+  height: 100%;
+  width: 100%;
+}
+
+.iconSize2{
+  height: 20%;
+  width: 13%;
+  margin-right: 10%;
+
 }

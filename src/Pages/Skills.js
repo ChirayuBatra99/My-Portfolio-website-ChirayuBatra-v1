@@ -4,8 +4,7 @@ import { TbBrandCpp } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiTypescript, SiMacos, SiGooglecolab } from "react-icons/si";
-import Img from "../Images/b.jpg"
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
+// import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { VscVscode } from "react-icons/vsc";

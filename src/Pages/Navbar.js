@@ -18,7 +18,7 @@ function NavBar() {
                         <h3 class='individualText' onClick={()=> {navigate("/about");}}>{'< About />'}</h3>
                     </div>
                     <div class='indiviadualTitle'>
-                        <h3 class='individualText'>{'< Contact />'}</h3>
+                        <h3 class='individualText'  onClick={()=> {navigate("/projects");}}>{'< Projects />'}</h3>
                     </div>
                     <div class='indiviadualTitle'>
                         <h3 class='individualText' onClick={()=> {navigate("/skills");}}>{'< Skills />'}</h3>
