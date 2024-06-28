@@ -11,7 +11,7 @@ import Project from './Pages/Project';
 function App() {
   return (
     <div className="mainContainer">
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <div className='navbar'><NavBar /></div>
         <div className='mainContent'>
           <Routes class='mainContent'>
@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </div>
 
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
