@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaPython, FaJava, FaNodeJs, FaCss3Alt,FaGithub } from "react-icons/fa";
-import { TbBrandCpp } from "react-icons/tb";
+import { TbBrandCpp, TbBrandReactNative } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
+import {DiMsqlServer, DiMongodb } from "react-icons/di";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiTypescript, SiMacos, SiGooglecolab } from "react-icons/si";
 // import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
@@ -23,12 +24,13 @@ function Skills() {
       {/* <div class='line'></div> */}
       {/* <div class='picAndContainer'> */}
         <div className='bigContainerIcons'>
+
           <div className='smallContainerIcons3'>
             <div class='capsule'>    <TbBrandCpp className='iconSize' color='white' class='sizeInc' /><p>C++</p></div>
             <div class='capsule'>   <FaPython className='iconSize' color='white' class='sizeInc' /><p>Python</p></div>
             <div class='capsule'>   <FaJava className='iconSize' color='white' class='sizeInc' /><p>Java</p></div>
-
           </div>
+
           <div className='smallContainerIcons'>
           <div class='capsule'>  <RiReactjsFill className='iconSize' color='white' class='sizeInc' /><p>ReactJs</p></div>
           <div class='capsule'>  <FaNodeJs className='iconSize' color='white' class='sizeInc' /><p>NodeJS</p></div>
@@ -36,6 +38,13 @@ function Skills() {
           <div class='capsule'>     <IoLogoJavascript className='iconSize' color='white' class='sizeInc' /><p>Javascript</p></div>
           <div class='capsule'>   <FaCss3Alt className='iconSize' color='white' class='sizeInc' /><p>CSS</p></div>
           </div>
+
+          <div className='smallContainerIcons3'>
+            <div class='capsule'>    <TbBrandReactNative className='iconSize' color='white' class='sizeInc' /><p>React Native</p></div>
+            <div class='capsule'>   <DiMongodb className='iconSize' color='white' class='sizeInc' /><p>Mongo DB</p></div>
+            <div class='capsule'>   <DiMsqlServer className='iconSize' color='white' class='sizeInc' /><p>SQL</p></div>
+          </div>
+
           <div className='smallContainerIcons'>
           </div>
         </div>
