@@ -62,7 +62,7 @@
 .mainContainer{
   display: flex;
   flex-direction: row;
-  /* height: 100vh; */
+  height: 100%;
 }
 
 .aboutFlex{
@@ -96,6 +96,7 @@
   position: fixed; /* Make it sticky */
   width: 20%;
   color: white;
+  height: 100%;
 }
 
 .sideBarTitles{
@@ -130,6 +131,14 @@
 
 .active{
   background-color: white;
+}
+
+.dropdownProjects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
 }
 
 
@@ -252,7 +261,7 @@
 }
 .indiviadualProjectImage{
     width: 90%;
-    height: 50%;
+    height: 160px;
 }
 
 .projectDescription{
@@ -271,4 +280,72 @@
   width: 13%;
   margin-right: 10%;
 
+}
+
+/* Above is Projects page css */
+/* Below is Experience page css */
+
+
+.experience-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  /* color: #333; */
+}
+
+.experience-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 15%;
+  background-color: pink;
+}
+
+.company-url a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.company-url a:hover {
+  text-decoration: underline;
+}
+
+.duration {
+  font-style: italic;
+  color: #555;
+}
+
+.projects {
+  margin-top: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h4 {
+  margin: 0;
+  color: #333;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+.project strong {
+  color: #555;
+}
+
+.rowFlexExperience{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }

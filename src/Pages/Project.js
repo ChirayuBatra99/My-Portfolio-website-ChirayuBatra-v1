@@ -14,6 +14,7 @@ import YTtranscriber from '../Images/projectImages/YTtranscriber.png'
 import Trex from '../Images/projectImages/Trex.png'
 import Snake from '../Images/projectImages/Snake.png'
 import calci from '../Images/projectImages/calci.png'
+import Ott from '../Images/projectImages/ott.png'
 
 function Project() {
     const openInNewTab = (url) => {
@@ -27,6 +28,63 @@ function Project() {
                 color: 'yellow', marginBottom: '20px',
             }}
             ><u>MERN Stack </u></h1>
+           
+
+            <div class='projectImages'>
+                
+                <div class='indiviadualCellProject'>
+                <img class='indiviadualProjectImage' src={Img} alt="image not found"/>
+                <h3 class='projectDescription'>E-Commerce Full Stack</h3>
+                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/E-commerce-platform-MERN")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
+                <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
+                <p class='projectDescription'>Source Code</p>
+                </div>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div>
+                <p class='projectDescription'>Show Demo</p>
+                </div>
+                </div>
+
+                <div class='indiviadualCellProject'>
+                <img class='indiviadualProjectImage' src={Ott} alt="image not found"/>
+                <h3 class='projectDescription'>Prime Stream (OTT Platform)</h3>
+                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Prime-Stream-OTT-MERN")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
+                <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
+                <p class='projectDescription'>Source Code</p>
+                </div>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div>
+                <p class='projectDescription'>Show Demo</p>
+                </div>
+                </div>
+
+                <div class='indiviadualCellProject'>
+                <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
+                <p class='projectDescription'></p>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
+                <p class='projectDescription'></p>
+                </div>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                {/* <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div> */}
+                <p class='projectDescription'></p>
+                </div>
+                </div>
+
+                <div class='indiviadualCellProject'>
+                <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
+                <p class='projectDescription'></p>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
+                <p class='projectDescription'></p>
+                </div>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                {/* <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div> */}
+                <p class='projectDescription'></p>
+                </div>
+                </div>
+            </div>
+
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
@@ -84,12 +142,32 @@ function Project() {
                 </div>
             </div>
 
+            <h1 style={{
+                display: 'flex',
+                justifyContent: 'center',
+                color: 'yellow', marginBottom: '20px',
+            }}
+            ><u>React Native</u></h1>
+
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
-                <img class='indiviadualProjectImage' src={Img} alt="image not found"/>
-                <h3 class='projectDescription'>E-Commerce website</h3>
-                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Restaurant-Menu-App")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
+                <img class='indiviadualProjectImage' src={toDo} alt="image not found"/>
+                <h3 class='projectDescription'>ToDo List-React Native</h3>
+                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/ToDo--android-ReactNative")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
+                <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
+                <p class='projectDescription'>Source Code</p>
+                </div>
+                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div>
+                <p class='projectDescription'>Show Demo</p>
+                </div>
+                </div>
+
+                <div class='indiviadualCellProject'>
+                <img class='indiviadualProjectImage' src={calci} alt="image not found"/>
+                <h3 class='projectDescription'>Calculator App</h3>
+                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Calculator-React-Native")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
                 <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
                 <p class='projectDescription'>Source Code</p>
                 </div>
@@ -102,7 +180,7 @@ function Project() {
                 <div class='indiviadualCellProject'>
                 <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
                 <p class='projectDescription'></p>
-                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                <div onClick={() => openInNewTab("")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
                 {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
                 <p class='projectDescription'></p>
                 </div>
@@ -115,20 +193,7 @@ function Project() {
                 <div class='indiviadualCellProject'>
                 <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
                 <p class='projectDescription'></p>
-                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
-                {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
-                <p class='projectDescription'></p>
-                </div>
-                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
-                {/* <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div> */}
-                <p class='projectDescription'></p>
-                </div>
-                </div>
-
-                <div class='indiviadualCellProject'>
-                <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
-                <p class='projectDescription'></p>
-                <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
+                <div onClick={() => openInNewTab("")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
                 {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
                 <p class='projectDescription'></p>
                 </div>
@@ -140,7 +205,7 @@ function Project() {
                
             </div>
 
-            
+
             <h1 style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -209,9 +274,9 @@ function Project() {
                 justifyContent: 'center',
                 color: 'yellow', marginBottom: '20px',
             }}
-            ><u>HTML-CSS-JS</u></h1>
+            ><u>CSS-Javascript</u></h1>
 
-<div class='projectImages'>
+            <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
                 <img class='indiviadualProjectImage' src={Trex} alt="image not found"/>
@@ -240,15 +305,15 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
-                <img class='indiviadualProjectImage' src={calci} alt="image not found"/>
-                <h3 class='projectDescription'>Calculator</h3>
-                <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Calculator-HTML-CSS-JS")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
-                <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
-                <p class='projectDescription'>Source Code</p>
+                <img class='indiviadualProjectImage' src={Empty} alt="image not found"/>
+                <p class='projectDescription'></p>
+                <div onClick={() => openInNewTab("")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
+                {/* <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div> */}
+                <p class='projectDescription'></p>
                 </div>
                 <div style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%'}}>
-                <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div>
-                <p class='projectDescription'>Show Demo</p>
+                {/* <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div> */}
+                <p class='projectDescription'></p>
                 </div>
                 </div>
 
