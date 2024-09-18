@@ -8,10 +8,11 @@ function Experience() {
                 {/* <h2>Sifars</h2> */}
 
                 <div className='rowFlexExperience'>
-                <h1 className="company-url"><a href="https://www.sifars.com" target="_blank" rel="noopener noreferrer">Sifars</a></h1>
-                <p className="duration">August 2023 - December 2023</p>
+                    <h1 className="company-url"><a href="https://www.sifars.com" target="_blank" rel="noopener noreferrer">Sifars</a></h1>
+                    <p className="duration">August 2023 - December 2023</p>
                 </div>
-                
+                <h3 className="duration">(Full Stack Web Development Intern)</h3>
+
                 <div className="projects">
                     <h3>Projects:</h3>
                     <div className="project">

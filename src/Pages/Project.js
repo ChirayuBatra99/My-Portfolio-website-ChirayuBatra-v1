@@ -16,6 +16,10 @@ import Snake from '../Images/projectImages/Snake.png'
 import calci from '../Images/projectImages/calci.png'
 import Ott from '../Images/projectImages/ott.png'
 
+import Box from '@mui/material/Box';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
+
 function Project() {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
@@ -33,8 +37,12 @@ function Project() {
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" 
+                     value={5}  />
+
                 <img class='indiviadualProjectImage' src={Img} alt="image not found"/>
                 <h3 class='projectDescription'>E-Commerce Full Stack</h3>
+
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/E-commerce-platform-MERN")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
                 <div class='iconSize2'>     <FaGithub  color='white' class='sizeInc2' /></div>
                 <p class='projectDescription'>Source Code</p>
@@ -46,6 +54,8 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={5}  />
+
                 <img class='indiviadualProjectImage' src={Ott} alt="image not found"/>
                 <h3 class='projectDescription'>Prime Stream (OTT Platform)</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Prime-Stream-OTT-MERN")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -88,6 +98,7 @@ function Project() {
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={RI} alt="image not found"/>
                 <h3 class='projectDescription'>Restaurant Menu (frontend) </h3>
                 <div  onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Restaurant-Menu-App")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -101,6 +112,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={Library} alt="image not found"/>
                 <h3 class='projectDescription'>Library Book Collection</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Library-Books-collection-MERN")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -114,6 +126,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3} background-color="white" />
                 <img class='indiviadualProjectImage' src={TicTacToe} alt="image not found"/>
                 <h3 class='projectDescription'>TicTacToe</h3>
 
@@ -128,6 +141,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={toDo} alt="image not found"/>
                 <h3 class='projectDescription'>To Do list App</h3>
 
@@ -152,6 +166,7 @@ function Project() {
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={2}  />
                 <img class='indiviadualProjectImage' src={toDo} alt="image not found"/>
                 <h3 class='projectDescription'>ToDo List-React Native</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/ToDo--android-ReactNative")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -165,6 +180,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={2}  />
                 <img class='indiviadualProjectImage' src={calci} alt="image not found"/>
                 <h3 class='projectDescription'>Calculator App</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Calculator-React-Native")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -216,6 +232,7 @@ function Project() {
 
             <div class='projectImages'>    
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={atsResume} alt="image not found"/>
                 <h3 class='projectDescription'>ATS for resume</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/ATS-for-resume-using-gemini")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -229,6 +246,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={chatWithPDF} alt="image not found"/>
                 <h3 class='projectDescription'>Chat With PDF</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/PDF-langchain-using-Gemini")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -242,6 +260,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={chatBotMemory} alt="image not found"/>
                 <h3 class='projectDescription'>ChatBot with memory</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/ChatBot-with-history-LeonYtLearning")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -255,6 +274,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={3}  />
                 <img class='indiviadualProjectImage' src={YTtranscriber} alt="image not found"/>
                 <h3 class='projectDescription'>Youtube Video Transcriber</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/YT-transcriber-using-gemini-pro")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -279,6 +299,7 @@ function Project() {
             <div class='projectImages'>
                 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={1}  />
                 <img class='indiviadualProjectImage' src={Trex} alt="image not found"/>
                 <h3 class='projectDescription'>TRex Chrome Game</h3>
                 <div onClick={() => openInNewTab("https://github.com/ChirayuBatra99/Dino-game-Chrome")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -292,6 +313,7 @@ function Project() {
                 </div>
 
                 <div class='indiviadualCellProject'>
+                <Rating className="ratings" value={1}  />
                 <img class='indiviadualProjectImage' src={Snake} alt="image not found"/>
                 <h3 class='projectDescription'>Snake Game</h3>
                 <div onClick={() => openInNewTab("")} style={{display: 'flex', flexDirection:'row', alignItems:'center', marginLeft:'10%', cursor:'pointer'}}>
@@ -328,16 +350,8 @@ function Project() {
                 {/* <div class='iconSize2'>     <ImNewTab  color='white' class='sizeInc2'/></div> */}
                 <p class='projectDescription'></p>
                 </div>
-                </div>
-               
+                </div> 
             </div>
-
-         
-
-
-            
-
-
 
         </div>
 
