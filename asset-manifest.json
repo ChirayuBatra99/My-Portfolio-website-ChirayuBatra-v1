@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio-website-ChirayuBatra-v1/static/css/main.bfd6df4e.css",
-    "main.js": "/My-Portfolio-website-ChirayuBatra-v1/static/js/main.7cbe4bf6.js",
+    "main.js": "/My-Portfolio-website-ChirayuBatra-v1/static/js/main.ace9360e.js",
     "static/js/453.d3eab430.chunk.js": "/My-Portfolio-website-ChirayuBatra-v1/static/js/453.d3eab430.chunk.js",
     "static/media/ott.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/ott.a5618d779d9ebad283bf.png",
     "static/media/b.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/b.59938d3830874ddab9ca.png",
@@ -14,18 +14,18 @@
     "static/media/chatWithPDF.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/chatWithPDF.1e826702f1ac2c6dc7c5.png",
     "static/media/Snake.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/Snake.c545950a45703b071b6c.png",
     "static/media/g.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/g.283f53e5f039326828fd.png",
+    "static/media/resumii.pdf": "/My-Portfolio-website-ChirayuBatra-v1/static/media/resumii.672070895a6b162fe899.pdf",
     "static/media/chatBotMemory.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/chatBotMemory.8e8abbd999dae1e7b26c.png",
     "static/media/a.jpg": "/My-Portfolio-website-ChirayuBatra-v1/static/media/a.1ee26e3fd108fc8fa0c3.jpg",
-    "static/media/resumii.pdf": "/My-Portfolio-website-ChirayuBatra-v1/static/media/resumii.6e579fbc23c9aee18b61.pdf",
     "static/media/calci.png": "/My-Portfolio-website-ChirayuBatra-v1/static/media/calci.bc2b6225ba10c3d1145a.png",
     "static/media/logo.svg": "/My-Portfolio-website-ChirayuBatra-v1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/My-Portfolio-website-ChirayuBatra-v1/index.html",
     "main.bfd6df4e.css.map": "/My-Portfolio-website-ChirayuBatra-v1/static/css/main.bfd6df4e.css.map",
-    "main.7cbe4bf6.js.map": "/My-Portfolio-website-ChirayuBatra-v1/static/js/main.7cbe4bf6.js.map",
+    "main.ace9360e.js.map": "/My-Portfolio-website-ChirayuBatra-v1/static/js/main.ace9360e.js.map",
     "453.d3eab430.chunk.js.map": "/My-Portfolio-website-ChirayuBatra-v1/static/js/453.d3eab430.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfd6df4e.css",
-    "static/js/main.7cbe4bf6.js"
+    "static/js/main.ace9360e.js"
   ]
 }
